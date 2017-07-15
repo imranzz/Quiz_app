@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    tools:context="com.example.andriod.quizapp.Questions">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_1" />
+
+            <EditText
+                android:id="@+id/ques1_ans"
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ques1_edit"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/ques1_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Submit" />
+
+            <TextView
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_2" />
+
+            <RadioGroup
+                android:id="@+id/radio_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/optn_1_ques2"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Canada" />
+
+                <RadioButton
+                    android:id="@+id/optn_2_ques2"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="USA" />
+
+                <RadioButton
+                    android:id="@+id/optn_3_ques2"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Britain" />
+
+                <RadioButton
+                    android:id="@+id/optn_4_ques2"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="Germany" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/ques2_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Submit" />
+
+            <TextView
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_3" />
+
+            <RadioGroup
+                android:id="@+id/radio_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/optn_1_ques3"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Service Tax" />
+
+                <RadioButton
+                    android:id="@+id/optn_2_ques3"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Corporation Tax" />
+
+                <RadioButton
+                    android:id="@+id/optn_3_ques3"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Income Tax" />
+
+                <RadioButton
+                    android:id="@+id/optn_4_ques3"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="Wealth Tax" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/ques3_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Submit" />
+
+            <TextView
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_4" />
+
+            <CheckBox
+                android:id="@+id/optn_1_ques4"
+                style="@style/SubCategorystyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cooking Gas" />
+
+            <CheckBox
+                android:id="@+id/optn_2_ques4"
+                style="@style/SubCategorystyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liquor" />
+
+            <CheckBox
+                android:id="@+id/optn_3_ques4"
+                style="@style/SubCategorystyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Petrol" />
+
+            <CheckBox
+                android:id="@+id/optn_4_ques4"
+                style="@style/SubCategorystyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Natural Gas" />
+
+            <Button
+                android:id="@+id/ques4_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Submit" />
+
+            <TextView
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_5" />
+
+            <RadioGroup
+                android:id="@+id/radio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/optn_1_ques5"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To bring tax uniformity in the country" />
+
+                <RadioButton
+                    android:id="@+id/optn_2_ques5"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To increase government revenue" />
+
+                <RadioButton
+                    android:id="@+id/optn_3_ques5"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To replace all the indirect tax" />
+
+                <RadioButton
+                    android:id="@+id/optn_4_ques5"
+                    style="@style/SubCategorystyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:text="To have fun" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/ques5_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:text="Submit" />
+
+            <TextView
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_6" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/arun_jaitley_minister" />
+
+            <EditText
+                android:id="@+id/ques6_ans"
+                style="@style/Categorystyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="45dp"
+                android:hint="@string/finalImage"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/final_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Submit and See Score" />
+    </RelativeLayout>
+
+</ScrollView>
